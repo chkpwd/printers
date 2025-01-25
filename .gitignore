@@ -1,0 +1,8 @@
+printer-*.cfg
+klipper.bin
+*.zip
+*.tar.gz
+*.bkp
+*.swp
+*.log
+*.log.*
