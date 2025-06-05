@@ -1,0 +1,20 @@
+[server]
+url = https://obico.chkpwd.com
+auth_token = auto-generated
+
+[moonraker]
+host = 127.0.0.1
+port = 7125
+
+[webcam C920]
+disable_video_streaming = False
+stream_url = http://127.0.0.1/webcam/webrtc
+snapshot_url = http://127.0.0.1/webcam/?action=snapshot
+stream_mode = mjpeg_webrtc
+
+[logging]
+path = /home/pi/printer_data/logs/moonraker-obico.log
+level = INFO
+
+[tunnel]
+
